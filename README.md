@@ -1,5 +1,4 @@
-- 👋 Hi, I'm @SolaimanBaraka
-- 👀
+- 👋👀 Hi, I'm Solaiman Baraka
 
 # MY STATS
 
