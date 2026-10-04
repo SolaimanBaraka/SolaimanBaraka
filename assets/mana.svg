@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="900" height="120">
+  <defs>
+    <linearGradient id="bar" x1="0" x2="1"><stop offset="0" stop-color="#3a1018"/><stop offset=".6" stop-color="#8b1e2d"/><stop offset="1" stop-color="#c4364a"/></linearGradient>
+    <linearGradient id="sheen" x1="0" x2="1"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".35"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="c"><rect x="120" y="52" width="660" height="16" rx="2"/></clipPath>
+    <style>
+      .t{font-family:Georgia,serif;font-size:12px;letter-spacing:5px;fill:#b9a57a}
+      .q{font-family:Georgia,serif;font-style:italic;font-size:16px;fill:#e6c77a}
+      .v{font-family:Georgia,serif;font-size:12px;fill:#c4364a;letter-spacing:2px}
+      .s{animation:s 2.8s linear infinite}@keyframes s{from{transform:translateX(-200px)}to{transform:translateX(760px)}}
+      .bl{animation:bl 1.4s steps(2) infinite}@keyframes bl{50%{opacity:.2}}
+    </style>
+  </defs>
+  <rect width="900" height="120" rx="6" fill="#070506"/>
+  <text x="120" y="40" class="t">MANA <tspan fill="#c4364a">0</tspan></text>
+  <text x="760" y="40" text-anchor="end" class="t">WILLPOWER</text><text x="780" y="41" text-anchor="end" class="bl" font-family="Georgia,serif" font-size="16" fill="#c4364a">∞</text>
+  <rect x="120" y="52" width="660" height="16" rx="2" fill="#140a0c" stroke="#c6a15b" stroke-opacity=".5"/>
+  <g clip-path="url(#c)">
+    <rect x="120" y="52" width="660" height="16" fill="url(#bar)"/>
+    <rect class="s" x="0" y="52" width="160" height="16" fill="url(#sheen)"/>
+    <g stroke="#070506" stroke-opacity=".6"><path d="M252 52v16M384 52v16M516 52v16M648 52v16"/></g>
+  </g>
+  <text x="450" y="98" text-anchor="middle" class="q">My magic is never giving up.</text>
+</svg>
